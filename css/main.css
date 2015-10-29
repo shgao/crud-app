@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+
+body {
+	background-color: #ccc;
+	font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+}
+
+h1, h2 {
+	font-family: Raleway, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#loomps {
+	border-radius: 10px;
+	width: 100%;
+}
+
+.no:hover, .yes:hover {
+	color: #f9f;
+}
+
+.date {
+	color: #888;
+	font-size: 12px;
+}
+
+.helpful {
+	color: #888;
+	float: right;
+	text-align: right;
+}
+
+.review {
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px #ccc;
+	margin-bottom:10px;
+	padding: 10px;
+}
+
+.reviewtext {
+	font-size: 18px;
+}
+
+.section {
+	background-color: white;
+	border-radius: 15px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.title {
+	display: inline;
+	font-size: 26px;
+	margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: white;
+	}
+
+	#loomps {
+		border-radius: 0px;
+	}
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ooompa-Loompa Reviews!</title>
+    	<script src="https://code.jquery.com/jquery.min.js"></script>
+    	<script src="js/jquery.raty.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+
+		<link rel="stylesheet" href="css/jquery.raty.css">
+		
+        <!-- Include parse library here -->
+        <script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+    </head>
+
+    <body>
+    	<div class="container">
+    		<div class="section">
+	    		<h1 class="text-center">Oompa-Loompa Reviews</h1>
+	    		<div class="row">
+	    			<div class="col-md-6">
+			    		<p>
+			    			<img id="loomps" src="img/loompy.jpg" />
+			    		</p>
+			    	</div>
+
+			    	<div class="col-md-6">
+			    		<p>
+			    			Average Rating: <span class="rate"></span>
+			    		</p>
+			    		
+			    		<p>
+			    			Description: Oompa-Loompas are knee-high beings who originate from Loompaland. The Oompa-Loompas would end up being preyed upon or attacked by the various predators that also reside in Loompaland before Wonka invited them to work at his factory and are paid in their favorite food, Cocoa beans, which were extremely rare on their island. The Oompa-Loompas are also mischievous, loving practical jokes and singing songs which, according to Wonka, they are very good at improvising. With each misbehaving child's exit, the Oompa-Loompas sing moralizing songs of the child's folly. In the 1971 film, Willy Wonka &amp; the Chocolate Factory, they were written to be played by actors with dwarfism and are portrayed as orange-skinned, green-haired men in striped shirts and baggy lederhosen-like pants. In the 2005 film, all of the Oompa-Loompas are played by Indian actor Deep Roy. They were wearing their tribal clothing during their time in Loompaland and wearing typical factory worker uniforms in Wonka's Factory. Some of the female Oompa-Loompas worked in the administration offices.
+			    		</p>
+			    	</div>
+		    	</div>
+	    	</div>
+
+	    	<div class="section">
+	    		<h2>Write a review!</h2>
+	    		<p class="click"></p>
+	    		<form>
+	    			<input type="text" id="title" placeholder="a title for your review" class="form-input form-control" /><br />
+	    			<textarea id="text" placeholder="what did you think of this?" class="form-input form-control" rows="2"></textarea><br />
+	    			<button type="submit" class="btn btn-success">Save</button>
+	    		</form>
+	    	</div>
+
+	    	<div class="section">
+	    		<h2>Reviews</h2>
+	    		<div id="reviews">
+	    		</div>
+    		</div>
+    	</div>
+    </body>
+
+    <script type="text/javascript" src="js/reviews.js"></script>
+</html>
